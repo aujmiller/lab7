@@ -15,6 +15,24 @@ def test_operator_type():
     operator_type = encrypt.operator_type()
     assert operator_type == OperatorType.Anonymize
 
+@pytest.mark.parametrize(
+   
+    "key",
+    [
+        "A" * 16,
+        "B" * 24,
+        "C" * 32,
+        b"D" * 16,
+        b"E" * 24,
+        b"F" * 32, 
+    ],
+)
+@mock.patch.object(AESCipher, "is_valid_key_size", return_value=True)
+def test_valid_keys(mock_is_valid_key_size, key):
+    Encrypt().validate(params={"key": key})
+    expected_value = key.encode("utf8") if isinstance(key, str) else key
+    mock_is_valid_key_size.assert_called_with(expected_value)
+
 @mock.patch.object(AESCipher, "encrypt")
 def test_given_anonymize_then_aes_encrypt_called_and_its_result_is_returned(
     mock_encrypt,
