@@ -4,7 +4,16 @@ import pytest
 
 from presidio_anonymizer.operators import Encrypt, AESCipher
 from presidio_anonymizer.entities import InvalidParamError
+from presidio_anonymizer.operators import Operator, OperatorType
 
+def test_operator_name():
+    encrypt = Encrypt()
+    assert encrypt.operator_name() == "encrypt"
+
+def test_operator_type():
+    encrypt = Encrypt()
+    operator_type = encrypt.operator_type()
+    assert operator_type == OperatorType.Anonymize
 
 @mock.patch.object(AESCipher, "encrypt")
 def test_given_anonymize_then_aes_encrypt_called_and_its_result_is_returned(
