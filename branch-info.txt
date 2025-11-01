@@ -1,5 +1,14 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: b417de5e89a3f4876e9767e69b85a8d089c0b2bf
+  Commits: 16
+  Recent commits:
+    b417de5 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T15:24:02Z | Bump python in /presidio-anonymizer
+    332b292 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:57:08Z | Auto-update branch-info.txt
+    d15bda2 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:56:21Z | Merge branch 'main' of github.com:aujmiller/lab7
+    c1cd740 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:39:46Z | Merge branch 'lab7'
+    7183439 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:39:42Z | Auto-update branch-info.txt
 - dependabot/github_actions/actions/checkout-5
   SHA: 9c0a9bdfc0287d9eea84963ec29045cf9d3deb86
   Commits: 3
@@ -17,11 +26,11 @@ Branches in this repo (with details):
     610dd61 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:09:58Z | Task 3
     2f0d7b3 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T17:30:19Z | Task 2
 - main
-  SHA: d15bda275ea9701a6516b94575adf4d08059ed93
-  Commits: 14
+  SHA: 332b2929ecc86fba065d7a01892d826d8edd21c6
+  Commits: 15
   Recent commits:
+    332b292 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:57:08Z | Auto-update branch-info.txt
     d15bda2 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:56:21Z | Merge branch 'main' of github.com:aujmiller/lab7
     c1cd740 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:39:46Z | Merge branch 'lab7'
     7183439 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:39:42Z | Auto-update branch-info.txt
     64dedd0 | Author: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Committer: Austin Miller <156855264+aujmiller@users.noreply.github.com> | Date: 2025-10-07T18:39:23Z | Task 5 fix
-    8fd1cda | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T18:35:41Z | Auto-update branch-info.txt
